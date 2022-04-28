@@ -10,5 +10,5 @@ Future implementation will follow to take user input and update kelvin variable.
 
 ---------------------------------------------------
 
-![Screenshot](Screenshot%20(10).png)
-![Screenshot](Screenshot%20(10).png)
+![Screenshot](Screenshot%2.png)
+![Screenshot](Screenshot.png)
