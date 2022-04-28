@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelvin Weather</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="divOne">
+      <h1 class="header" id="header">Kelvin Weather</h1>
+      <p class="kelvin" id="kelvin"></p>
+      <p class="output" id="output"></p>
+      <form class="form">
+        <input type="text" id="input" />
+        <button class="button" onClick="updateTemp()">Submit</button>
+      </form>
+      <p class="update" id="update"></p>
+      <div class="divOne">
+        <form class="form one">
+          <label for="inputCelcius">Celcius :</label>
+          <input
+            id="inputCelcius"
+            type="number"
+            required
+            placeholder="Convert to Kelvin from Celcius"
+            oninput="tempConvCelcToKelvin(this.value)"
+            onchange="tempConvCelcToKelvin(this.value)"
+          />
+        </form>
+        <p class="one"><span id="outputKelvinFromCelsius"></span></p>
+        <form class="form two">
+          <label for="inputFehrenheit">Fehrenheit</label>
+          <input
+            id="inputFehrenheit"
+            type="number"
+            required
+            placeholder="Convert to Kelvin from Fahrenheit"
+            oninput="tempConvFahToKel(this.value)"
+            onchange="tempConvFahToKel(this.value)"
+          />
+        </form>
+        <p class="one"><span id="outputKelvinFromFehrenheit"></span></p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(119, 145, 212);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.divOne {
+  margin: 40px;
+  padding: 10px;
+  width: auto;
+  height: 600px;
+  font-size: 30px;
+}
+.header {
+  padding: 5px;
+  color: rgb(104, 50, 50);
+  text-align: center;
+}
+.kelvin {
+  padding: 15px;
+  color: rgb(25, 33, 42);
+  text-align: center;
+}
+.output {
+  padding: 15px;
+  color: rgb(25, 33, 42);
+  text-align: center;
+}
+.form {
+  padding: 5px;
+  text-align: center;
+}
+input {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 600px;
+}
+.button {
+  background-color: rgb(25, 33, 42);
+  text-align: center;
+  color: aliceblue;
+  width: 200px;
+  height: 70px;
+  font-size: large;
+}
+.update {
+  padding: 15px;
+  color: rgb(25, 33, 42);
+  text-align: center;
+}
+.one,
+.two {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
